@@ -10,7 +10,7 @@ vector<int> procedure_1(vector<vector<int> > neighbors, vector<int> cover);
 vector<int> procedure_2(vector<vector<int> > neighbors, vector<int> cover, int k);
 int cover_size(vector<int> cover);
 ifstream infile ("2371.txt");
-//ofstream outfile ("coloring.txt");
+
 
 
 bool removable(vector<int> neighbor, vector<int> cover)
@@ -158,7 +158,6 @@ int main()
  for(i=0; i<allcover.size(); i++)
  {
   if(found) break;
-  //counter++; cout<<counter<<". ";  outfile<<counter<<". ";
   vector<int> cover=allcover;
   cover[i]=0;
   cover=procedure_1(neighbors,cover);
@@ -211,4 +210,5 @@ int main()
  <<"Maximum partial Vertex Coloring found for "<<n-min<<" vertices."<<endl;
  return 0;
 }
+//codigo con algunas modificaciones de The Vertex Coloring Algorithm - Ashay Dharwadker
 
