@@ -1,2 +1,2 @@
 # Torkestani
-Código de la implementación del algoritmo de Torkestani. 
+Implementación del algoritmo de Torkestani. 
