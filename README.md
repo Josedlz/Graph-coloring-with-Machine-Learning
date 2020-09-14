@@ -1,13 +1,8 @@
-# Implementación de un algoritmo que resuelve el problema del número cromático en grafos haciendo uso de ICLA (Irregular Cellular Learning Automatas).
+# Implementation of an algorithm that solves the problem of finding the chromatic number in an arbitrary graph using ICLA (Irregular Cellular Learning Automatas).
 
-En el paper adjunto en este repositorio se describe una técnica interesante para
-hallar el mínimo número de colores necesario para colorear adecuadamente un grafo.
+In the attached paper within this repository an interesting technique for finding the minimum number of colors necessary to properly color a graph is explained.
 
-De manera intuitiva, lo que hace el algoritmo es situar un autómata de aprendizaje
-en cada vértice del grafo que el programa recibe en su input. Cada automáta intentará colorearse
-de modo tal que su color sea diferente al de sus vecinos, y las probabilidades con las que escogerá
-cada color se verán recompensadas y/o penalizadas de acuerdo a una función de recompensa. De este modo, 
-progresivamente estabilizará su valor conforme transcurran las iteraciones. 
+Intuitively, what the algorithm does is placing a Learning Automaton at each vertex of the graph that the program receives as its input. Each automaton will try to color itself so that its color is different from that of its neighbors, and the probabilities with which it will choose each color will be rewarded and / or penalized according to a reward function (our choice in the implentation differs from the one shown in the paper due to efficiency considerations). In this way,
+it will progressively stabilize its value as the iterations ensue.
 
-Este acercamiento es interesante porque combina los conceptos de grafos y automátas celulares
-para resolver un problema muy conocido.
+This approach is interesting because it combines concepts in graph theory with those regarding to cellular automatas to solve a well-known problem.
