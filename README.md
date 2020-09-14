@@ -5,8 +5,9 @@ hallar el mínimo número de colores necesario para colorear adecuadamente un gr
 
 De manera intuitiva, lo que hace el algoritmo es situar un autómata de aprendizaje
 en cada vértice del grafo que el programa recibe en su input. Cada automáta intentará colorearse
-de modo tal que su color sea diferente al del resto, progresivamente estabilizando su valor 
-conforme transcurren las iteraciones. 
+de modo tal que su color sea diferente al de sus vecinos, y las probabilidades con las que escogerá
+cada color se verán recompensadas y/o penalizadas de acuerdo a una función de recompensa. De este modo, 
+progresivamente estabilizará su valor conforme transcurran las iteraciones. 
 
 Este acercamiento es interesante porque combina los conceptos de grafos y automátas celulares
 para resolver un problema muy conocido.
