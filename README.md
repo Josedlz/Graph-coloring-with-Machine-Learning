@@ -1,5 +1,4 @@
-# Implemmentación de un algoritmo que resuelve el problema del número cromático en grafos
-# haciendo uso de ICLA (Irregular Cellular Learning Automatas).
+# Implemmentación de un algoritmo que resuelve el problema del número cromático en grafos haciendo uso de ICLA (Irregular Cellular Learning Automatas).
 
 En el paper adjunto en este repositorio se describe una técnica interesante para
 hallar el mínimo número de colores necesario para colorear adecuadamente un grafo.
