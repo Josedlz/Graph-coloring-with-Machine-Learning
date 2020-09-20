@@ -1,4 +1,3 @@
-//Entrega final del proyecto, corre para todos los grafos
 #include <bits/stdc++.h>
 using namespace std;
  
